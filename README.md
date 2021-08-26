@@ -1,17 +1,11 @@
 # AceBook
 -------------------------------
 
-High level overview description of the group project
+Create a clone of facebook using agile methodology in development teams.
 
 --------------
 
 ## App functionality: 
-### How to use 
-Description of user flow and an explanation of how it all works
-
-<br>
-
-        [gif of user flow (screen record)]
 
 ### Tech Stack
 Frontend
@@ -39,7 +33,7 @@ Users can:
 - [x] View all users posts in reverse chronological order by last update
 - [x] Comment on posts and pictures
 - [x] Like posts and pictures
-- [ ]  View their own posts on a unique profile page
+- [x]  View their own posts on a unique profile page
 - [x]  Update their profile with an 'About me'
 - [x] Update their account details
 - [x] Add and change a profile picture
@@ -48,22 +42,6 @@ Users can:
 - [ ]  React to posts with specific emojis
 - [x] Activate dark mode
 
-
-## How to deploy on Heroku
-
-1. Push to Github
-2. And thats it! Auto deploy is enabled on Heroku. Just make sure to log out, close the page, open the page and log back in. 
-
-# Common debugging 
- 
-# bundle install failed when deploying Heroku
-
-1. Run 'bundle lock --add-platform x86_64-linux'. Heroku runs on linux. When adding this into your Gemlock it allows Heroku to use your code.
-2. Run 'bundle lock --add-platform ruby' 
-3. Push changes 
-
-
-
 <br>
 
 ## How to install and run
@@ -71,7 +49,7 @@ Users can:
 
 ### Project Setup
 ```
-$ git clone https://github.com/dominicmeddick/acebook-smokin-meats.git
+$ git clone git@github.com:fwill22/acebook.git
 $ bundle install
 $ bin/rails db:create
 $ bin/rails db:migrate
@@ -107,7 +85,7 @@ Rails requires a Javascript runtime to work. The easiest way is to install Node 
 
 ### Goals / Learning objectives
 * Build a webapp using Rails.
-* 
+* Work in a development team organising work in 2 day sprints and following agile methodology
 
 ### Planning
 Project management: [Trello board](https://trello.com/invite/b/XononjtA/44dc9ba58bdd4f1cdf21ccbae8960914/smokinmeats)
@@ -115,10 +93,15 @@ Project management: [Trello board](https://trello.com/invite/b/XononjtA/44dc9ba5
 <br>
 
 ### Sequence diagram modelling how the interface might work
-![diagram](link)
+
+_Find all plans on our Trello board_
 
 
 ### Reflections
+* Smaller, more regular commits
+* Keep on top of bugs as you go
+* More thorough planning so everyone is on the same page from the start - improves readability of codebase. 
+* Add styling incrementally to improve more cohesive user experience and avoid CSS related crashes
 	
 ------------
 ## Designed by:
